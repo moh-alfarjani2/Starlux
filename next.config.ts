@@ -1,8 +1,5 @@
-import type { NextConfig } from "next";
+const nextConfig = {
+  output: "export"
+}
 
-const nextConfig: NextConfig = {
-  // @ts-ignore
-  devIndicators: false,
-};
-
-export default nextConfig;
+export default nextConfig
